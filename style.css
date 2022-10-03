@@ -21,7 +21,6 @@ body {
   justify-content: space-around;
   height: 200px;
   width: 550px;
-  background: transparent;
   border-radius: 4px;
   box-shadow: 0px 4px 8px #000;
 }
@@ -46,4 +45,16 @@ body {
 
 .relogio span.tempo {
   font-size: 12px;
+}
+
+@media (max-width: 600px) {
+  .relogio {
+    flex-direction: column;
+    height: 400px;
+    width: 200px;
+  }
+  .relogio div {
+    height: 80px;
+    width: 120px;
+  }
 }
